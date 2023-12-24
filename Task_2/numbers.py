@@ -1,0 +1,8 @@
+num_one = (int(input("Enter a number: ")))
+num_two = (int(input("Enter a different number: ")))
+num_three = (int(input("Enter a different number: ")))
+sum = int(num_one + num_two + num_three)
+print(sum)
+print(num_one - num_two)
+print(num_three * num_one)
+print(sum / num_three)
