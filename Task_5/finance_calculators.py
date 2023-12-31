@@ -3,7 +3,11 @@ import math
 # choose investment or bond
 while True:
 
-    choice = str(input("Would you like to choose investment or bond. ")).lower()
+    print(''' 
+          investment - to calculate the amount of interest you'll earn on your investment
+          bond - to calculate the amount you'll have to pay on a home loan
+          ''')
+    choice = str(input("Enter either 'investment' or 'bond' from the menu above to proceed: ")).lower()
 
     # if they choose investment
     if choice == "investment":
