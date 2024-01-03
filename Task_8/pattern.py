@@ -1,11 +1,15 @@
+# print a pattern with increasing asteriks until line 4
 count = 4
 
-# range(start, end, step); does not include end, need end to stop at 5 if you want 4 asteriks
-for n in range(1, count + 1):
-    print("*" * n)
-    if n == 4:
-        for y in range(count - 1, 0, -1):
-            print("*" * y)
+for n in range(1, count * 2):
+    if n <= count:
+        print("*" * n)
+# asteriks pattern decreases by 1 after line 4
+    else:
+        print("*" * (count * 2 - n))
+    
+
+    
 
 
 
