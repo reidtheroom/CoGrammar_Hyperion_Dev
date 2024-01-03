@@ -7,9 +7,6 @@ for n in range(1, count * 2):
 # asteriks pattern decreases by 1 after line 4
     else:
         print("*" * (count * 2 - n))
-    
-
-    
 
 
 
